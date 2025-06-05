@@ -1,6 +1,7 @@
 nginx
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#arm 下的k8s镜像
+--platform=linux/arm64 labring/calico:v3.27.4
+--platform=linux/arm64 labring/helm:v3.15.4
+--platform=linux/arm64 labring/kubernetes:v1.29.15
