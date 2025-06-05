@@ -5,3 +5,4 @@ nginx
 --platform=linux/arm64 labring/calico:v3.27.4
 --platform=linux/arm64 labring/helm:v3.15.4
 --platform=linux/arm64 labring/kubernetes:v1.29.15
+
